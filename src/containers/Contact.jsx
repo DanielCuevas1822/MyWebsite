@@ -19,7 +19,7 @@ const Contact = () => {
               </div>
 
               <div className="contact__content col-12 col-md-6 d-flex flex-column justify-content-center">
-                <p>Telefono: 7751468353</p>
+                <p>Teléfono: 7751468353</p>
                 <p>Correo Electrónico: daniel.cuevas1822@gmail.com</p>
                 <p>Linkedin: Juan Daniel Cuevas Hernández</p>
               </div>

@@ -5,6 +5,7 @@ import "../containers/App";
 import Contact from "./Contact";
 import Home from "./Home";
 import MyProyects from "./MyProyects";
+import SingleProyect from "./SingleProyect";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/proyects" component={MyProyects} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/proyects/:name" component={SingleProyect} />
       </Switch>
       <Footer />
     </div>
