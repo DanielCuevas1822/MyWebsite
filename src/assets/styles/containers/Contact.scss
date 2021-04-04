@@ -1,6 +1,8 @@
-.contact {
-    &__container {
-      min-height: 82vh;     
-    }
+.contact {  
+  .section {
+    min-height: 82vh;
   }
-  
+  &__content {
+    padding-top: 25px;
+  }
+}

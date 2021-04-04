@@ -35,7 +35,7 @@ function ContactForm() {
         />
       </div>
 
-      <button type="submit" disabled={state.submitting} class="btn btn-primary">
+      <button type="submit" disabled={state.submitting} className="btn btn-primary">
         Enviar
       </button>
     </form>

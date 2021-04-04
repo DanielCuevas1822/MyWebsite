@@ -6,18 +6,24 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="container">
-        <div className="contact__container row">
-          <div className="col-12">
-            <h3>¿Te gusta mi trabajo?</h3>
-            <h5>Utiliza los siguientes medios de contacto para charlar.</h5>
-          </div>
-          <div className="col-12 col-md-6">
-            <Form />
-          </div>
-          <div className="col-12 col-md-6">
-            <p>Telefono: 7751468353</p>
-            <p>Correo Electrónico: daniel.cuevas1822@gmail.com</p>
-            <p>Linkedin: Juan Daniel Cuevas Hernández</p>
+        <div className="row">
+          <div className="section col-12 d-flex align-items-center">
+            <div className="row">
+              <div className="col-12">
+                <h3>¿Te gusta mi trabajo?</h3>
+                <h5>Puedes utilizar los siguientes medios de contacto para que hablemos.</h5>
+              </div>
+
+              <div className="contact__content col-12 col-md-6">
+                <Form />
+              </div>
+
+              <div className="contact__content col-12 col-md-6 d-flex flex-column justify-content-center">
+                <p>Telefono: 7751468353</p>
+                <p>Correo Electrónico: daniel.cuevas1822@gmail.com</p>
+                <p>Linkedin: Juan Daniel Cuevas Hernández</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

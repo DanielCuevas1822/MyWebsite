@@ -6,7 +6,7 @@ const Home = () => {
     <div className="home">
       <div className="container">
         <div className="row">
-          <div className="home__container col-12 d-flex align-items-center">
+          <div className="section col-12 d-flex align-items-center">
             <div>
               <h1>Hola, soy Daniel Cuevas</h1>
               <h3>Ingeniero en Sistemas Computacionales</h3>

@@ -8,7 +8,7 @@ const Proyect = () => {
         <img
           className="card-img-top"
           src="https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png"
-          alt="Card image cap"
+          alt="proyect"
         />
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
