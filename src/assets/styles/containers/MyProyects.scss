@@ -1,0 +1,10 @@
+.myproyects {
+  &__container {
+    min-height: 82vh;
+    &__list {
+        padding: 50px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
+}

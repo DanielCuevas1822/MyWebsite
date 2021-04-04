@@ -1,0 +1,15 @@
+.header {
+  background-color: blue;
+  color: white;
+  &__container {
+    min-height: 10vh;
+    ul {
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      display: inline;
+      padding: 0 10px;
+    }
+  }
+}
