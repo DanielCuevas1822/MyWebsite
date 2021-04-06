@@ -1,38 +1,58 @@
 import React from "react";
 import "../assets/styles/containers/SingleProyect.scss";
+import { connect } from "react-redux";
 
 const SingleProyect = (props) => {
+  const { id } = props.match.params;
   return (
     <div className="singleproyect">
-    <div className="container">
-      <div className="row">
-        <div className="section col-12 d-flex flex-column justify-content-center">
-          <img src="" alt="proyect" />
+      <div className="container">
+        <div className="row">
+          {props.proyects.map((item) => {
+            if (item.id === parseInt(id)) {
+              return (
+                <div
+                  key={item.id}
+                  className="section col-12 d-flex flex-column justify-content-center"
+                >
+                  <img
+                    src="https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png"
+                    alt="proyect"
+                  />
 
-          <h2>{props.match.params.name}</h2>
+                  <h2>{item.title}</h2>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-            mollitia praesentium in, libero animi consequuntur odit vitae ipsum
-            provident ratione harum beatae eum consectetur atque laborum
-            reprehenderit maxime quidem sint.
-          </p>
+                  <p>{item.description}</p>
 
-          <p>Herramientas utilizadas:</p>
-          <ul>
-            <li>JavaScript</li>
-            <li>HTML5</li>
-            <li>SASS</li>
-            <li>React Js</li>
-            <li>Redux</li>
-          </ul>
+                  <p>Herramientas utilizadas:</p>
+                  <ul>
+                    {item.tools.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
 
-          <p>URL: </p>
-          <p>Proyecto realizado para la empresa tal en el año 2019.</p>
+                  <p>
+                    URL: <a href={item.link}>{item.title}</a>
+                  </p>
+                  <p>
+                    Proyecto realizado para {item.company} en el año {item.year}
+                    .
+                  </p>
+                </div>
+              );
+            }
+            return null;
+          })}
         </div>
       </div>
-    </div></div>
+    </div>
   );
 };
 
-export default SingleProyect;
+const mapStatetoProps = (state) => {
+  return {
+    proyects: state.proyects,
+  };
+};
+
+export default connect(mapStatetoProps)(SingleProyect);

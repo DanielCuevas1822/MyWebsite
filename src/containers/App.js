@@ -6,19 +6,23 @@ import Contact from "./Contact";
 import Home from "./Home";
 import MyProyects from "./MyProyects";
 import SingleProyect from "./SingleProyect";
+import { Provider } from "react-redux";
+import store from "../redux/store";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/proyects" component={MyProyects} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/proyects/:name" component={SingleProyect} />
-      </Switch>
-      <Footer />
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/proyects" component={MyProyects} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/proyects/:id" component={SingleProyect} />
+        </Switch>
+        <Footer />
+      </div>
+    </Provider>
   );
 }
 

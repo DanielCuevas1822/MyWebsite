@@ -1,8 +1,22 @@
 .card {
   margin-top: 25px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  &-description {
+    max-height: 100px;
+  }
   a {
     color: black;
     text-decoration: none;
+  }
+  button {
+    border: none;
+    width: 60px;
+    border-radius: 10px;
+    .like {
+      color: #00a814;
+    }
+    .dislike {
+      color: lightgrey;
+    }
   }
 }
