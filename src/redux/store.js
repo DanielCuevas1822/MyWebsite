@@ -19,6 +19,12 @@ const initialState = {
       company: "Innovation Workshop",
       like: false,
       likes: 100,
+      images: [
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+      ],
     },
     {
       id: 2,
@@ -33,6 +39,12 @@ const initialState = {
       company: "Innovation Workshop",
       like: false,
       likes: 90,
+      images: [
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+      ],
     },
     {
       id: 3,
@@ -56,6 +68,12 @@ const initialState = {
       company: "Freelance",
       like: false,
       likes: 100,
+      images: [
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+      ],
     },
     {
       id: 4,
@@ -70,6 +88,12 @@ const initialState = {
       company: "Freelance",
       like: false,
       likes: 80,
+      images: [
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+      ],
     },
     {
       id: 5,
@@ -84,6 +108,12 @@ const initialState = {
       company: "Freelance",
       like: false,
       likes: 80,
+      images: [
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+      ],
     },
     {
       id: 6,
@@ -98,6 +128,12 @@ const initialState = {
       company: "Freelance",
       like: false,
       likes: 80,
+      images: [
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+      ],
     },
     {
       id: 7,
@@ -121,6 +157,12 @@ const initialState = {
       company: "Innovation Workshop",
       like: false,
       likes: 80,
+      images: [
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+        "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
+      ],
     },
   ],
 };

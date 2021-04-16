@@ -16,7 +16,7 @@ import "swiper/components/pagination/pagination.scss";
 SwiperCore.use([Navigation, Pagination, A11y]);
 
 const SingleProyect = (props) => {
-  const { id } = props.match.params;
+  const { id } = props.match.params;  
   return (
     <div className="singleproyect">
       <div className="container">
@@ -38,38 +38,19 @@ const SingleProyect = (props) => {
                       spaceBetween={50}
                       slidesPerView={1}
                       navigation
-                      pagination={{ clickable: true }}
-                      onSwiper={(swiper) => console.log(swiper)}
-                      onSlideChange={() => console.log("slide change")}
+                      pagination={{ clickable: true }}                      
                     >
-                      <SwiperSlide>
-                        <img
-                          className="slide-img"
-                          src="https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png"
-                          alt="proyect"
-                        />
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <img
-                          className="slide-img"
-                          src="https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png"
-                          alt="proyect"
-                        />
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <img
-                          className="slide-img"
-                          src="https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png"
-                          alt="proyect"
-                        />
-                      </SwiperSlide>
-                      <SwiperSlide>
-                        <img
-                          className="slide-img"
-                          src="https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png"
-                          alt="proyect"
-                        />
-                      </SwiperSlide>
+                      {item.images.map((item) => {
+                        return (
+                          <SwiperSlide>
+                            <img
+                              className="slide-img"
+                              src={item}
+                              alt="proyect"
+                            />
+                          </SwiperSlide>
+                        );
+                      })}
                     </Swiper>
                   </div>
 
