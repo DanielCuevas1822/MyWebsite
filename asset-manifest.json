@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MyWebsite/static/css/main.d830b477.chunk.css",
-    "main.js": "/MyWebsite/static/js/main.6847af03.chunk.js",
-    "main.js.map": "/MyWebsite/static/js/main.6847af03.chunk.js.map",
+    "main.js": "/MyWebsite/static/js/main.bec4bd64.chunk.js",
+    "main.js.map": "/MyWebsite/static/js/main.bec4bd64.chunk.js.map",
     "runtime-main.js": "/MyWebsite/static/js/runtime-main.b3d4c31c.js",
     "runtime-main.js.map": "/MyWebsite/static/js/runtime-main.b3d4c31c.js.map",
     "static/css/2.1160fa19.chunk.css": "/MyWebsite/static/css/2.1160fa19.chunk.css",
@@ -13,17 +13,13 @@
     "index.html": "/MyWebsite/index.html",
     "static/css/2.1160fa19.chunk.css.map": "/MyWebsite/static/css/2.1160fa19.chunk.css.map",
     "static/css/main.d830b477.chunk.css.map": "/MyWebsite/static/css/main.d830b477.chunk.css.map",
-    "static/js/2.a35df28f.chunk.js.LICENSE.txt": "/MyWebsite/static/js/2.a35df28f.chunk.js.LICENSE.txt",
-    "static/media/Mascara1.fad67d43.png": "/MyWebsite/static/media/Mascara1.fad67d43.png",
-    "static/media/Mascara2.3388cdb6.png": "/MyWebsite/static/media/Mascara2.3388cdb6.png",
-    "static/media/Mascara3.9d25e29f.png": "/MyWebsite/static/media/Mascara3.9d25e29f.png",
-    "static/media/Mascara4.ef31049b.png": "/MyWebsite/static/media/Mascara4.ef31049b.png"
+    "static/js/2.a35df28f.chunk.js.LICENSE.txt": "/MyWebsite/static/js/2.a35df28f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b3d4c31c.js",
     "static/css/2.1160fa19.chunk.css",
     "static/js/2.a35df28f.chunk.js",
     "static/css/main.d830b477.chunk.css",
-    "static/js/main.6847af03.chunk.js"
+    "static/js/main.bec4bd64.chunk.js"
   ]
 }
