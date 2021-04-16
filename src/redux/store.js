@@ -19,6 +19,7 @@ const initialState = {
       company: "Innovation Workshop",
       like: false,
       likes: 100,
+      logo: "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
       images: [
         "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
         "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
@@ -39,6 +40,7 @@ const initialState = {
       company: "Innovation Workshop",
       like: false,
       likes: 90,
+      logo: "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
       images: [
         "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
         "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
@@ -68,6 +70,7 @@ const initialState = {
       company: "Freelance",
       like: false,
       likes: 100,
+      logo: "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
       images: [
         "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
         "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
@@ -88,6 +91,7 @@ const initialState = {
       company: "Freelance",
       like: false,
       likes: 80,
+      logo: "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
       images: [
         "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
         "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
@@ -108,6 +112,7 @@ const initialState = {
       company: "Freelance",
       like: false,
       likes: 80,
+      logo: "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
       images: [
         "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
         "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
@@ -128,6 +133,7 @@ const initialState = {
       company: "Freelance",
       like: false,
       likes: 80,
+      logo: "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
       images: [
         "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
         "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
@@ -157,6 +163,7 @@ const initialState = {
       company: "Innovation Workshop",
       like: false,
       likes: 80,
+      logo: "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
       images: [
         "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",
         "https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png",

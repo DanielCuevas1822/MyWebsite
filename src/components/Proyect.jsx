@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import { action_like_action } from "../redux/actions/proyectsActions";
 
 const Proyect = (props) => {
-  const { id, title, short_description, like, likes } = props.info;
+  const { id, title, short_description, like, likes, logo } = props.info;
 
   const handleLike = (id_proyect) => {
     props.action_like_action(id_proyect);
@@ -14,15 +14,9 @@ const Proyect = (props) => {
   return (
     <div className="col-12 col-md-4">
       <div className="card">
-
-        <img
-          className="card-img-top card-image"
-          src="https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png"
-          alt="proyect"
-        />
+        <img className="card-img-top card-image" src={logo} alt="proyect" />
 
         <div className="col-12 d-flex justify-content-around moreinfo">
-
           <div className="d-flex flex-column justify-content-center align-items-center">
             <button className="btn" onClick={() => handleLike(id)}>
               <i
@@ -38,7 +32,6 @@ const Proyect = (props) => {
               <p>Más información</p>
             </Link>
           </div>
-
         </div>
 
         <div className="card-body">
