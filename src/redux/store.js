@@ -12,7 +12,7 @@ const initialState = {
       title: "Pícale.Mx",
       year: "2019",
       short_description:
-        "Conoce los rincones de Querétaro, prueba la comida más rica, visita lugares nuevos y tradicionales de nuestra ciudad. Pícale.mx es el portal con las mejores recomendaciones para queretanos, y no queretanos.",
+        "Conoce los rincones de Querétaro, prueba la comida más rica, visita lugares nuevos y tradicionales. Pícale.mx es el portal con las mejores recomendaciones.",
       description:
         "Este proyecto fue realizado para EXA FM Querétaro. Pícale MX es una web que se encarga de difundir actividades, eventos y lugares de interés del estado de Querétaro. Desarrollado con Worpress a partir de un tema completamente en blanco para poder tener un sitio totalmente personalizado.",
       tools: ["HTML5", "CSS3", "SASS", "JavaScript", "PHP", "SQL", "WordPress"],

@@ -1,5 +1,6 @@
+@import '../scss/main.scss';
 .header {
-  background-color: #161819;
+  background-color: $bg_color;
   position: relative;
   z-index: 10;
   &__container {
@@ -10,10 +11,10 @@
     }
     li {
       display: inline;
-      padding: 0 15px;
+      padding: 0 rem(15);
       a {
-        font-size: 12px;
-        color: #136b1f;
+        font-size: rem(12);
+        color: $primary_color;
       }
     }
   }

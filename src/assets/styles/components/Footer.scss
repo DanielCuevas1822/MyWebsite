@@ -1,11 +1,11 @@
+@import '../scss/main.scss';
 .footer {
-  background-color: #161819;
-  color: #136b1f;
+  background-color: $bg_color;
+  color: $primary_color;
   position: relative;
   z-index: 10;
   &__container {
-    min-height: 8vh;
-    
+    min-height: 8vh;    
   }
   img {
       height: 70%;

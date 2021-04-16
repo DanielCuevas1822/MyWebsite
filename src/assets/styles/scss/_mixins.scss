@@ -1,0 +1,43 @@
+@mixin mobil() {
+    @media (min-width: 300px) {
+      @content;
+    }
+  }
+  
+  @mixin tablet() {
+    @media (min-width: 700px) {
+      @content;
+    }
+  }
+  
+  @mixin desktop() {
+    @media (min-width: 1000px) {
+      @content;
+    }
+  }
+  
+  @mixin flex-center-full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin font-300 {
+    font-family: $primary_font;
+    font-weight: 300;
+  }
+
+  @mixin font-400 {
+    font-family: $primary_font;
+    font-weight: 400;
+  }
+
+  @mixin font-600 {
+    font-family: $primary_font;
+    font-weight: 600;
+  }
+
+  @mixin font-700 {
+    font-family: $primary_font;
+    font-weight: 700;
+  }

@@ -62,7 +62,7 @@ const SingleProyect = (props) => {
                   </ul>
 
                   <p className="subtitle">
-                    URL: <a href={item.link}>{item.title}</a>
+                    URL: <a href={item.link}>{item.link}</a>
                   </p>
                   <p className="work">
                     Proyecto realizado para {item.company} en el año {item.year}

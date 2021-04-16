@@ -1,8 +1,9 @@
+@import "../scss/main.scss";
 .contact {
-  background-color: #121113;
+  background-color: $bg_color_container;
   position: relative;
   &__content {
-    margin-top: 50px;
+    margin-top: rem(50);
   }
   .mask {
     position: absolute;
@@ -13,19 +14,23 @@
   .section {
     min-height: 82vh;
     .title {
-      color: #136b1f;
-      font-size: 30px;
+      color: $primary_color;
+      font-size: rem(30);
     }
     .paragraph {
-      font-size: 20px;
+      font-size: rem(20);
       color: white;
+      @include font-300;
     }
     .pcontact {
-      margin: 0 0 40px 0;
+      margin: 0 0 rem(40) 0;
       i {
-        font-size: 33px;
-        color: #136b1f;
-        margin-right: 40px;
+        font-size: rem(33);
+        color: $primary_color;
+        margin-right: rem(40);
+      }
+      a{
+        color: $font_color;
       }
     }
   }

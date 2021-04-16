@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="container">
-      <img className="mask" src={Mascara3} alt="mask" />
+        <img className="mask" src={Mascara3} alt="mask" />
         <div className="row">
           <div className="section col-12 d-flex align-items-center">
             <div className="row">
@@ -25,17 +25,22 @@ const Contact = () => {
 
               <div className="contact__content col-12 col-md-6 d-flex flex-column align-items-center">
                 <div>
-                  <p className="paragraph pcontact">
-                    <i className="fas fa-phone-square-alt"></i> 7751468353
-                  </p>
-                  <p className="paragraph pcontact">
+                  <div className="paragraph pcontact d-flex">
+                    <i className="fas fa-phone-square-alt"></i>
+                    <a href="tel:7751468353">7751468353</a>
+                  </div>
+                  <div className="paragraph pcontact d-flex">
                     <i className="fas fa-envelope-square"></i>{" "}
-                    daniel.cuevas1822@gmail.com
-                  </p>
-                  <p className="paragraph pcontact">
-                    <i className="fab fa-linkedin"></i> Juan Daniel Cuevas
-                    Hernández
-                  </p>
+                    <a href="mailto:daniel.cuevas1822@gmail.com">
+                      daniel.cuevas1822@gmail.com
+                    </a>
+                  </div>
+                  <div className="paragraph pcontact d-flex">
+                    <i className="fab fa-linkedin"></i>{" "}
+                    <a href="https://www.linkedin.com/in/juan-daniel-cuevas-hern%C3%A1ndez-679882152">
+                      Juan Daniel Cuevas Hernández
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

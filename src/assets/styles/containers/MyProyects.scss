@@ -1,7 +1,8 @@
+@import "../scss/main.scss";
 .myproyects {
-  background-color: #121113;
+  background-color: $bg_color_container;
   .container {
-    position: relative;    
+    position: relative;
     .mask {
       position: absolute;
       bottom: 0;
@@ -10,17 +11,18 @@
   }
   .section {
     min-height: 82vh;
-    margin: 50px 0 50px 0;
+    margin: rem(50) 0 rem(50) 0;
   }
   &__title {
     text-align: center;
-    color: #136b1f;
-    font-size: 30px;
+    color: $primary_color;
+    font-size: rem(30);
     p {
       margin: 0;
       color: white;
-      font-size: 20px;
-      margin-bottom: 50px;
+      font-size: rem(20);
+      margin-bottom: rem(50);
+      @include font-300;
     }
   }
   &__list {

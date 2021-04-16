@@ -1,8 +1,9 @@
+@import "../scss/main.scss";
 .card {
-  border: solid 1px #136b1f;
-  margin-top: 25px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 15px;
+  border: solid rem(1) $primary_color;
+  margin-top: rem(25);
+  box-shadow: 0 rem(4) rem(4) rgba(0, 0, 0, 0.25);
+  border-radius: rem(15);
 
   .moreinfo {
     display: none !important;
@@ -10,20 +11,22 @@
   }
 
   .card-image {
-    max-height: 179px;
-    border-radius: 15px 15px 0 0;
+    max-height: rem(179);
+    border-radius: rem(15) rem(15) 0 0;
   }
   .card-body {
-    border-radius: 0 0 15px 15px;
-    height: 155px;
-    background-color: #313131;
-    color: white;
+    border-radius: 0 0 rem(15) rem(15);
+    height: rem(155);
+    background-color: $bg_card_color;
+    color: $font_color;
     text-align: center;
     .card-title {
-      font-size: 20px;
+      font-size: rem(20);
+      @include font-600;
     }
     .card-description {
-      font-size: 13px;
+      font-size: rem(13);
+      @include font-300;
     }
   }
 }
@@ -32,21 +35,23 @@
   .moreinfo {
     display: inline-flex !important;
     background-color: #121113a8;
-    height: 179px;
+    height: rem(179);
     position: absolute;
     a,
     p,
     i {
-      color: white;      
+      color: white;
     }
-    a,p {
-      font-size: 15px;
+    a,
+    p {
+      font-size: rem(15);
+      @include font-300;
     }
-    i{
-      font-size: 30px;
+    i {
+      font-size: rem(30);
     }
     i.like {
-      color: #136b1f;
+      color: $primary_color;
     }
     .dislike {
       color: grey;

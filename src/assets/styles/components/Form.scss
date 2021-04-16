@@ -1,28 +1,31 @@
+@import '../scss/main.scss';
 .myform {
   label,
   input,
   textarea {
-    color: white;
+    color: $font_color;
+    @include font-300;
   }
   label {
-    font-size: 20px;
+    font-size: rem(20);
   }
   input.form-control,
   textarea {
     background-color: transparent;
     border-radius: 0;
     border: none;
-    border-bottom: solid 1px #136b1f;
+    border-bottom: solid rem(1) $primary_color;
   }
   textarea:focus {
     background-color: transparent;
   }
   button{
-      background-color: #136b1f;
+    @include font-300;
+      background-color: $primary_color;
       border: none;
-      width: 99px;
+      width: rem(99);
   }
   button:hover{
-    background-color: #136b1f;
+    background-color: $primary_color;
   }
 }
