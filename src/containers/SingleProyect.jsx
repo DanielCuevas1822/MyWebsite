@@ -2,13 +2,25 @@ import React from "react";
 import "../assets/styles/containers/SingleProyect.scss";
 import { connect } from "react-redux";
 import Mascara4 from "../assets/images/Mascara4.png";
+// import Swiper core and required modules
+import SwiperCore, { Navigation, Pagination, A11y } from "swiper";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/swiper.scss";
+import "swiper/components/navigation/navigation.scss";
+import "swiper/components/pagination/pagination.scss";
+
+// install Swiper modules
+SwiperCore.use([Navigation, Pagination, A11y]);
 
 const SingleProyect = (props) => {
   const { id } = props.match.params;
   return (
     <div className="singleproyect">
       <div className="container">
-      <img className="mask" src={Mascara4} alt="mask" />
+        <img className="mask" src={Mascara4} alt="mask" />
         <div className="row">
           {props.proyects.map((item) => {
             if (item.id === parseInt(id)) {
@@ -21,11 +33,44 @@ const SingleProyect = (props) => {
 
                   <p className="description">{item.description}</p>
 
-                  <div className="slider">
-                    <img
-                      src="https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png"
-                      alt="proyect"
-                    />
+                  <div id="slider" className="slider">
+                    <Swiper
+                      spaceBetween={50}
+                      slidesPerView={1}
+                      navigation
+                      pagination={{ clickable: true }}
+                      onSwiper={(swiper) => console.log(swiper)}
+                      onSlideChange={() => console.log("slide change")}
+                    >
+                      <SwiperSlide>
+                        <img
+                          className="slide-img"
+                          src="https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png"
+                          alt="proyect"
+                        />
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <img
+                          className="slide-img"
+                          src="https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png"
+                          alt="proyect"
+                        />
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <img
+                          className="slide-img"
+                          src="https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png"
+                          alt="proyect"
+                        />
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <img
+                          className="slide-img"
+                          src="https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png"
+                          alt="proyect"
+                        />
+                      </SwiperSlide>
+                    </Swiper>
                   </div>
 
                   <p className="subtitle">Herramientas utilizadas:</p>

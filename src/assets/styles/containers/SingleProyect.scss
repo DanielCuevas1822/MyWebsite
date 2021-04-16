@@ -36,5 +36,35 @@
       color: white;
       font-size: 20px;
     }
-  }  
+    #slider {
+      .swiper-button-next {
+        background-image: url("../../images/Arrow\ right.png");
+        height: 57px;
+        width: 57px;
+      }
+      .swiper-button-next::after {
+        display: none;
+      }
+      .swiper-button-prev {
+        background-image: url("../../images/Arrow\ left.png");
+        height: 57px;
+        width: 57px;
+      }
+      .swiper-button-prev::after {
+        display: none;
+      }
+      .swiper-pagination-bullet {
+        background-color: white;
+        opacity: unset;
+        height: 10px;
+        width: 10px;
+      }
+      .swiper-pagination-bullet-active {
+        background-color: #136b1f;
+      }
+      .slide-img {
+        width: 100%;
+      }
+    }
+  }
 }
