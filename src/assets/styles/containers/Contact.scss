@@ -1,8 +1,31 @@
-.contact {  
+.contact {
+  background-color: #121113;
+  position: relative;
+  &__content {
+    margin-top: 50px;
+  }
+  .mask {
+    position: absolute;
+    bottom: 0;
+    right: 34%;
+  }
   .section {
     min-height: 82vh;
-  }
-  &__content {
-    padding-top: 25px;
+    .title {
+      color: #136b1f;
+      font-size: 30px;
+    }
+    .paragraph {
+      font-size: 20px;
+      color: white;
+    }
+    .pcontact {
+      margin: 0 0 40px 0;
+      i {
+        font-size: 33px;
+        color: #136b1f;
+        margin-right: 40px;
+      }
+    }
   }
 }

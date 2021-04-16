@@ -1,9 +1,40 @@
 .singleproyect {
+  background-color: #121113;
+  position: relative;
+  .mask {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
   .section {
     min-height: 82vh;
-    margin: 30px 0;
-  }
-  img {
-    margin-bottom: 20px;
-  }
+    margin: 50px 0;
+    h2.title {
+      font-size: 30px;
+      color: #136b1f;
+    }
+    p.description {
+      color: white;
+      font-size: 20px;
+    }
+    li {
+      color: white;
+      font-size: 20px;
+    }
+    .slider {
+      margin: 50px 0;
+    }
+
+    .subtitle {
+      color: #136b1f;
+      font-size: 20px;
+      a {
+        color: white;
+      }
+    }
+    .work {
+      color: white;
+      font-size: 20px;
+    }
+  }  
 }

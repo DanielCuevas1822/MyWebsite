@@ -1,0 +1,28 @@
+.myform {
+  label,
+  input,
+  textarea {
+    color: white;
+  }
+  label {
+    font-size: 20px;
+  }
+  input.form-control,
+  textarea {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    border-bottom: solid 1px #136b1f;
+  }
+  textarea:focus {
+    background-color: transparent;
+  }
+  button{
+      background-color: #136b1f;
+      border: none;
+      width: 99px;
+  }
+  button:hover{
+    background-color: #136b1f;
+  }
+}

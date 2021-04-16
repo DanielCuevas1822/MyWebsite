@@ -1,6 +1,7 @@
 .header {
-  background-color: blue;
-  color: white;
+  background-color: #161819;
+  position: relative;
+  z-index: 10;
   &__container {
     min-height: 10vh;
     ul {
@@ -9,9 +10,10 @@
     }
     li {
       display: inline;
-      padding: 0 10px;
-      a{
-        color: white;
+      padding: 0 15px;
+      a {
+        font-size: 12px;
+        color: #136b1f;
       }
     }
   }

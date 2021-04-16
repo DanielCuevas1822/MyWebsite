@@ -7,8 +7,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="row">
-          <div className="header__container col-12 d-flex justify-content-between align-items-center">
-            <img src="" alt="logo" />
+          <div className="header__container col-12 d-flex justify-content-center align-items-center">
             <nav>
               <ul>
                 <li>

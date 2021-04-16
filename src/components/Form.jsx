@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
+import "../assets/styles/components/Form.scss";
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("xyylyekz");
@@ -8,7 +9,7 @@ function ContactForm() {
     return <p>Thanks for joining!</p>;
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="myform" onSubmit={handleSubmit}>
       <div className="form-group">
         <label htmlFor="name">Nombre Completo:</label>
         <input type="text" className="form-control" id="name" />

@@ -14,25 +14,37 @@ const Proyect = (props) => {
   return (
     <div className="col-12 col-md-4">
       <div className="card">
-        <Link to={`/proyects/${id}`}>
-          <img
-            className="card-img-top card-image"
-            src="https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png"
-            alt="proyect"
-          />
-        </Link>
-        <div className="card-body">
-          <h5 className="card-title">{title}</h5>
-          <div className="card-description">
-            <p className="card-text">{short_description}</p>
-          </div>
-          <div className="d-flex justify-content-center">
+
+        <img
+          className="card-img-top card-image"
+          src="https://gaminguardian.com/wp-content/uploads/2018/04/Megumin.png"
+          alt="proyect"
+        />
+
+        <div className="col-12 d-flex justify-content-around moreinfo">
+
+          <div className="d-flex flex-column justify-content-center align-items-center">
             <button className="btn" onClick={() => handleLike(id)}>
               <i
                 className={`fas fa-thumbs-up ${like ? "like" : "dislike"}`}
               ></i>
               <p className="like">{likes}</p>
             </button>
+          </div>
+
+          <div className="d-flex flex-column justify-content-center align-items-center">
+            <i className="fas fa-info"></i>
+            <Link to={`/proyects/${id}`}>
+              <p>Más información</p>
+            </Link>
+          </div>
+
+        </div>
+
+        <div className="card-body">
+          <h5 className="card-title">{title}</h5>
+          <div className="card-description">
+            <p className="card-text">{short_description}</p>
           </div>
         </div>
       </div>

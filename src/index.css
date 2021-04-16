@@ -1,0 +1,33 @@
+/* @font-face {
+  font-family: "CodeSquaredRegular";
+  src: local("CodeSquaredRegular"),
+    url("./fonts/code-squared-font/CodeSquaredRegular.ttf") format("truetype");
+} */
+
+/* @font-face {
+  font-family: "EncodeSansSemiExpanded-Regular";
+  src: local("EncodeSansSemiExpanded-Regular"),
+    url(./fonts/Encode_Sans_Semi_Expanded/EncodeSansSemiExpanded-Regular.ttf)
+      format("truetype");
+}
+
+@font-face {
+  font-family: "EncodeSansSemiExpanded-Light";
+  src: local("EncodeSansSemiExpanded-Light"),
+    url(./fonts/Encode_Sans_Semi_Expanded/EncodeSansSemiExpanded-Light.ttf)
+      format("truetype");
+}
+
+@font-face {
+  font-family: "EncodeSansSemiExpanded-SemiBold";
+  src: local("EncodeSansSemiExpanded-SemiBold"),
+    url(./fonts/Encode_Sans_Semi_Expanded/EncodeSansSemiExpanded-SemiBold.ttf)
+      format("truetype");
+}
+
+@font-face {
+  font-family: "EncodeSansSemiExpanded-Bold";
+  src: local("EncodeSansSemiExpanded-Bold"),
+    url(./fonts/Encode_Sans_Semi_Expanded/EncodeSansSemiExpanded-Bold.ttf)
+      format("truetype");
+} */
