@@ -9,7 +9,7 @@ import "swiper/components/pagination/pagination.scss";
 SwiperCore.use([Navigation, Pagination, A11y]);
 
 const SingleProyect = (props) => {
-  const { id } = props.match.params;  
+  const { id } = props.match.params;
   return (
     <div className="singleproyect">
       <div className="container">
