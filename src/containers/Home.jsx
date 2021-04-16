@@ -1,12 +1,11 @@
 import React from "react";
 import "../assets/styles/containers/Home.scss";
-import Mascara1 from "../assets/images/Mascara1.png";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="container">
-        <img className="mask" src={Mascara1} alt="mask" />
+        <img className="mask" src="https://raw.githubusercontent.com/DanielCuevas1822/MyWebsite/main/src/assets/images/Mascara1.png" alt="mask" />
         <div className="row">
           <div className="section col-12 d-flex justify-content-center align-items-center">
             <div>

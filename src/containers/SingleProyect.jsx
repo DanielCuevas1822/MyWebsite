@@ -1,18 +1,11 @@
 import React from "react";
 import "../assets/styles/containers/SingleProyect.scss";
 import { connect } from "react-redux";
-import Mascara4 from "../assets/images/Mascara4.png";
-// import Swiper core and required modules
 import SwiperCore, { Navigation, Pagination, A11y } from "swiper";
-
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/swiper.scss";
 import "swiper/components/navigation/navigation.scss";
 import "swiper/components/pagination/pagination.scss";
-
-// install Swiper modules
 SwiperCore.use([Navigation, Pagination, A11y]);
 
 const SingleProyect = (props) => {
@@ -20,7 +13,7 @@ const SingleProyect = (props) => {
   return (
     <div className="singleproyect">
       <div className="container">
-        <img className="mask" src={Mascara4} alt="mask" />
+        <img className="mask" src="https://raw.githubusercontent.com/DanielCuevas1822/MyWebsite/main/src/assets/images/Mascara4.png" alt="mask" />
         <div className="row">
           {props.proyects.map((item) => {
             if (item.id === parseInt(id)) {
