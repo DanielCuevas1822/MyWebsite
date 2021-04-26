@@ -7,7 +7,7 @@ const MyProyects = (props) => {
   return (
     <div className="myproyects">
       <div className="container">
-        <img className="mask" src="https://raw.githubusercontent.com/DanielCuevas1822/MyWebsite/main/src/assets/images/Mascara2.png" alt="mask" />
+        <img className="mask" src="https://firebasestorage.googleapis.com/v0/b/mywebsite-4f1c2.appspot.com/o/Masks%2FMascara2.png?alt=media&token=308db41c-b333-418b-bc59-66216b2493ac" alt="mask" />
         <div className="row">
           <div className="section col-12">
             <div className="myproyects__title">

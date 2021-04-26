@@ -13,7 +13,7 @@ const SingleProyect = (props) => {
   return (
     <div className="singleproyect">
       <div className="container">
-        <img className="mask" src="https://raw.githubusercontent.com/DanielCuevas1822/MyWebsite/main/src/assets/images/Mascara4.png" alt="mask" />
+        <img className="mask" src="https://firebasestorage.googleapis.com/v0/b/mywebsite-4f1c2.appspot.com/o/Masks%2FMascara4.png?alt=media&token=5424478c-523a-4d90-948f-7caba8f1614c" alt="mask" />
         <div className="row">
           {props.proyects.map((item) => {
             if (item.id === parseInt(id)) {

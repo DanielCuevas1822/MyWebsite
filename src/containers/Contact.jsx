@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="container">
-        <img className="mask" src="https://raw.githubusercontent.com/DanielCuevas1822/MyWebsite/main/src/assets/images/Mascara3.png" alt="mask" />
+        <img className="mask" src="https://firebasestorage.googleapis.com/v0/b/mywebsite-4f1c2.appspot.com/o/Masks%2FMascara3.png?alt=media&token=294e9cc7-d7e6-4881-8782-ea75ab476ce2" alt="mask" />
         <div className="row">
           <div className="section col-12 d-flex align-items-center">
             <div className="row">

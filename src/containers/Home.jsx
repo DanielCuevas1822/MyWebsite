@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="container">
-        <img className="mask" src="https://raw.githubusercontent.com/DanielCuevas1822/MyWebsite/main/src/assets/images/Mascara1.png" alt="mask" />
+        <img className="mask" src="https://firebasestorage.googleapis.com/v0/b/mywebsite-4f1c2.appspot.com/o/Masks%2FMascara1.png?alt=media&token=2fb4c4cb-f28b-45b9-8830-24ea834ab2fa" alt="mask" />
         <div className="row">
           <div className="section col-12 d-flex justify-content-center align-items-center">
             <div>
