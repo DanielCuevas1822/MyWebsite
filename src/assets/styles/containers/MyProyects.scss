@@ -5,9 +5,8 @@
     position: relative;
     .mask {
       position: absolute;
-      bottom: 0;
-      
-      opacity: 30%;
+      bottom: 0;      
+      opacity: 30% !important;
     }
   }
   .section {

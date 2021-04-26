@@ -4,10 +4,9 @@
   position: relative;
   .mask {
     position: absolute;
-    opacity: 30%;
-    
+    opacity: 30%;    
     right: 0;
-    height: 100%;
+    height: 100% !important;
   }
   .section {
     min-height: 82vh;
