@@ -1,6 +1,6 @@
 # MyWebsite
 
-_My web site made in React Js._
+_My website made in React Js. In this web application you can see all my projects and my main skills. It contains a form to contact me._
 
 _Concepts learned in this proyect:_
 
