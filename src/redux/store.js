@@ -50,7 +50,7 @@ const initialState = {
     },
     {
       id: 3,
-      link: "https://danielcuevas1822.github.io/MyPokedex/#/",
+      link: "https://danielcuevas1822.github.io/MyPokedex/",
       title: "MyPokédex",
       year: "2021",
       short_description:
@@ -122,14 +122,22 @@ const initialState = {
     },
     {
       id: 6,
-      link: "https://bienes-raices.webcindario.com/",
+      link: "https://danielcuevas1822.github.io/BienesRaices/",
       title: "Bienes raíces",
-      year: "2018",
+      year: "2018 e implementada con React Js en 2021",
       short_description:
-        "Es sitio web en el que se da a conocer servicios de venta de bienes raíces.",
+        "Es aplicación web en el que se da a conocer servicios de venta de bienes raíces.",
       description:
-        "Es un proyecto realizado con motivos de aprendizaje. Este sitio puede ser considerado como un template para una web de venta de bienes raíces.",
-      tools: ["HTML5", "CSS3", "SASS", "PHP", "SQL"],
+        "Es un proyecto realizado con motivos de aprendizaje. Esta aplicación web puede ser considerado como un template para una web de venta de bienes raíces. También cuenta con un administrador para su contenido https://danielcuevas1822.github.io/BienesRaicesAdmin/",
+      tools: [
+        "React Js",
+        "React Redux",
+        "React Router",
+        "Fetch API",
+        "HTML5",
+        "CSS3",
+        "SASS",
+      ],
       company: "Freelance",
       like: false,
       likes: 80,
